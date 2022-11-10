@@ -13,7 +13,7 @@ export default function Estatus( {cantLikes} ) {
   return (
     <header>
       <h1>Estatus de posteos</h1>
-      <p>Likes totales<span>{ cantLikes }</span></p>        
+      <p>Likes totales: <span>{ cantLikes }</span></p>        
     </header>
   )
 }

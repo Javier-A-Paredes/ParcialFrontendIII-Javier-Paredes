@@ -27,7 +27,7 @@ export default function Post({ dataPost, handleLikes }) {
       <h3>{titulo}</h3>
       <p>{texto}</p>
       <button onClick={() => contarLikes(titulo)} >👍</button>
-      <h5>Likes {likesPost}</h5>      
+      <h5>{likesPost <= 10 ? "Likes: " + likesPost : "Mas de 10 likes"}</h5>      
     </div>
   )
 }
